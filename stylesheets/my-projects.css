@@ -1,3 +1,9 @@
+:root {
+    color: white;
+    background-color: black;
+    font-family: monospace;
+}  
+
 @font-face {
     font-family: 'iconfont';
     src:  url('../fonts/iconfont.eot');
@@ -34,12 +40,6 @@
 .icon-github:before {
     content: "\e900";
 }
-
-:root {
-    color: white;
-    background-color: black;
-    font-family: monospace;
-}  
 
 #greet {
     padding-top: 5vh;
