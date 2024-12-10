@@ -15,39 +15,30 @@
     margin: 0;
 }
 
-#greet-p2 {
-    font-size: 3.6vh;
-
-    margin-top: 1vh;
-    margin-bottom: 0;
-}
-
-ul {
-    list-style-type: lower-roman;
-}
-
-#list {
-    font-size: 3.5vh;
-
-    margin-top: 6vh;
-    margin-left: 6vh;
-}
-
-#li {
-    margin-top: 1vh;
-}
-
 a:link {
-    color: white;
+    color: gainsboro;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: gainsboro;
     text-decoration: underline;
 }
 
 a:visited {
-    color: white;
+    color: gainsboro;
     text-decoration: none;
+}
+
+#about {
+    font-size: 4vh;
+
+    margin-top: -2vh;
+    padding-left: 7vh;
+}
+
+footer {
+    font-size: 2.5vh;
+
+    padding-left: 5vh;
 }
