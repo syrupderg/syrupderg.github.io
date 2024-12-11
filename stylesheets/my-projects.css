@@ -41,6 +41,11 @@
     content: "\e900";
 }
 
+.icon-sphere:before {
+    content: "\e903";
+    color: #fff;
+}
+
 #greet {
     padding-top: 5vh;
     padding-left: 5vh;
