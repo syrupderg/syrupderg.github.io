@@ -2,7 +2,7 @@
     color: white;
     background-color: black;
     font-family: monospace;
-}
+}  
 
 #greet {
     padding-top: 5vh;
@@ -15,17 +15,54 @@
     margin: 0;
 }
 
+#contact-list {
+    font-size: 4vh;
+
+    padding-left: 7vh;
+    margin-bottom: 0;
+}
+
+#links {
+    font-size: 3vh;
+    color: white;
+
+    padding-left: 2vh;
+    padding-top: 0.5vh;
+    margin-top: -4vh;
+    margin-bottom: 3.5vh;
+}
+
+img {
+    margin-right: 2vh;
+    margin-bottom: -2px;
+}
+
 a:link {
-    color: gainsboro;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: gainsboro;
+    color: white;
     text-decoration: underline;
 }
 
 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#footer:link {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+#footer:hover {
+    color: gainsboro;
+    text-decoration: underline;
+}
+
+#footer:visited {
     color: gainsboro;
     text-decoration: none;
 }
